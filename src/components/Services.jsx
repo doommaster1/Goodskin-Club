@@ -9,12 +9,11 @@ export default function Services() {
           </div>
           <h3 className="font-bold py-2">Where to buy</h3>
           <p className="text-md">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-            quam ipsa, deserunt esse aut possimus, recusandae nulla vitae
-            provident ut placeat dolorum. Repellendus aperiam, accusamus
-            suscipit aliquid tenetur exercitationem dignissimos?
+            Discover the nearest GoodSkinClub official stores and authorized
+            retailers. Visit us in-person to experience our full product range
+            and get professional consultations from our beauty experts near you.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-[6px] px-6 rounded-full border-black">
+          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
             learn more
           </button>
         </div>
@@ -24,12 +23,12 @@ export default function Services() {
           </div>
           <h3 className="font-bold py-2">Best Seller</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-            quam ipsa, deserunt esse aut possimus, recusandae nulla vitae
-            provident ut placeat dolorum. Repellendus aperiam, accusamus
-            suscipit aliquid tenetur exercitationem dignissimos?
+            Explore our most-loved skincare essentials, curated by our community
+            and proven by results. From hydrating serums to protective
+            sunscreens, find the holy grail products that everyone is talking
+            about.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-[6px] px-6 rounded-full border-black">
+          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
             learn more
           </button>
         </div>
@@ -39,12 +38,11 @@ export default function Services() {
           </div>
           <h3 className="font-bold py-2">Shipment</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-            quam ipsa, deserunt esse aut possimus, recusandae nulla vitae
-            provident ut placeat dolorum. Repellendus aperiam, accusamus
-            suscipit aliquid tenetur exercitationem dignissimos?
+            We provide fast, reliable, and secure nationwide shipping to ensure
+            your skincare routine is never interrupted. Every order is handled
+            with care and packed in eco-friendly materials to protect your glow.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-[6px] px-6 rounded-full border-black">
+          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
             learn more
           </button>
         </div>
@@ -54,12 +52,12 @@ export default function Services() {
           </div>
           <h3 className="font-bold py-2">Recomendation</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-            quam ipsa, deserunt esse aut possimus, recusandae nulla vitae
-            provident ut placeat dolorum. Repellendus aperiam, accusamus
-            suscipit aliquid tenetur exercitationem dignissimos?
+            Take the guesswork out of your routine with our personalized skin
+            analysis. Receive expert-backed product suggestions tailored
+            specifically to your unique skin type, concerns, and long-term
+            beauty goals.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-[6px] px-6 rounded-full border-black">
+          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
             learn more
           </button>
         </div>

@@ -11,7 +11,7 @@ export default function Header() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
+        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center sm:opacity-0 group-hover:opacity-100 transition duration-300">
           <h2 className="text-white text-4xl font-bold mb-2">
             Beautyfly
           </h2>
@@ -29,7 +29,7 @@ export default function Header() {
           className="w-full h-full object-cover"
         />
 
-        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
+        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center sm:opacity-0 group-hover:opacity-100 transition duration-300">
           <h4 className="text-white text-xl font-semibold">
             Natural
           </h4>
@@ -47,7 +47,7 @@ export default function Header() {
           className="w-full h-full object-cover"
         />
 
-        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
+        <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center sm:opacity-0 group-hover:opacity-100 transition duration-300">
           <h4 className="text-white text-xl font-semibold">
             Cruelty Free
           </h4>

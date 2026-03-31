@@ -1,6 +1,6 @@
 export default function Gallery() {
   return (
-    <section className="px-10 py-16 w-full h-full">
+    <section className="px-10 py-16 w-full h-full" id="gallery">
       {/* Title */}
       <div className="mb-10">
         <h4 className="text-3xl font-extrabold text-center">
@@ -9,7 +9,7 @@ export default function Gallery() {
       </div>
 
       {/* Gallery */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-37.5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         
         {/* Image Besar */}
         <img

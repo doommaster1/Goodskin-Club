@@ -23,7 +23,7 @@ export default function About() {
           temporibus cumque voluptas ratione a, esse assumenda adipisci et.
           Maiores totam accusantium harum similique!
         </p>
-        <button className="bg-[#e5e5e5] py-2 px-8 mt-5 rounded-full font-semibold text-xl border border-black hover:bg-[#d1d1d1]">learn more</button>
+        <button className="bg-[#e5e5e5] py-2 px-8 mt-5 rounded-full font-semibold text-xl border border-black hover:bg-black hover:text-white transition-all duration-300">learn more</button>
       </div>
     </div>
   );
