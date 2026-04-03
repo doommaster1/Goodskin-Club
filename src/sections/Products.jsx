@@ -1,3 +1,5 @@
+import Button from "../components/button";
+
 export default function Products() {
   return (
     <div className="barang flex items-center flex-col bg-[#dfe6e9] p-10" id="product">
@@ -10,14 +12,14 @@ export default function Products() {
           <h4 className="price2 text-sm pt-1">
             from 25$ <span>35$</span>
           </h4>
-          <button className="bg-white mt-2 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">buy now</button>
+          <Button variant="light">learn more</Button>
           </div>
         </div>
         <div className="products text-center">
           <img className="rounded-2xl" src="img/product/serum.jpg" alt=""></img>
           <h3 className="name font-semibold text-xl pt-2">Serum</h3>
           <h4 className="price2">55$</h4>
-          <button className="bg-white mt-2 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">buy now</button>
+          <Button variant="light">learn more</Button>
         </div>
         <div className="products text-center">
           <img className="rounded-2xl" src="img/product/bodywash.jpg" alt=""></img>
@@ -25,15 +27,16 @@ export default function Products() {
           <h4 className="price2">
             from 15$ <span>20$</span>
           </h4>
-          <button className="bg-white mt-2 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">buy now</button>
+          <Button variant="light">learn more</Button>
         </div>
         <div className="products text-center">
           <img className="rounded-2xl" src="img/product/sunscreen.jpg" alt=""></img>
           <h3 className="name font-semibold text-xl pt-2">Sunscreen</h3>
           <h4 className="price2">30$</h4>
-          <button className="bg-white mt-2 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">buy now</button>
+          <Button variant="light">learn more</Button>
         </div>
       </div>
+      <Button variant = "large">view all</Button>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import Button from "../components/button";
+
 export default function Services() {
   return (
     <section className="services mx-auto flex items-center justify-center flex-col width-full bg-[#b2bec3] w-full pb-[100px] px-3 py-10 min-h-[550px]">
@@ -13,9 +15,7 @@ export default function Services() {
             retailers. Visit us in-person to experience our full product range
             and get professional consultations from our beauty experts near you.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
-            learn more
-          </button>
+          <Button>learn more</Button>
         </div>
         <div className="flex items-center flex-col text-center bg-white p-3 rounded-xl">
           <div className="icon">
@@ -28,9 +28,7 @@ export default function Services() {
             sunscreens, find the holy grail products that everyone is talking
             about.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
-            learn more
-          </button>
+          <Button>learn more</Button>
         </div>
         <div className="flex items-center flex-col text-center bg-white p-3 rounded-xl">
           <div className="icon">
@@ -42,9 +40,7 @@ export default function Services() {
             your skincare routine is never interrupted. Every order is handled
             with care and packed in eco-friendly materials to protect your glow.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
-            learn more
-          </button>
+          <Button>learn more</Button>
         </div>
         <div className="flex items-center flex-col text-center bg-white p-3 rounded-xl">
           <div className="icon">
@@ -57,9 +53,7 @@ export default function Services() {
             specifically to your unique skin type, concerns, and long-term
             beauty goals.
           </p>
-          <button className="bg-[#b2bec3] mt-3 py-1.5 px-6 rounded-full border-black hover:shadow-lg hover:bg-black hover:text-white transition-all duration-300">
-            learn more
-          </button>
+          <Button>learn more</Button>
         </div>
       </div>
     </section>

@@ -1,3 +1,5 @@
+import Button from "../components/button";
+
 export default function About() {
   return (
     <div className="penjelasan grid grid-cols-1 md:grid-cols-2" id="penjelasan">
@@ -23,7 +25,8 @@ export default function About() {
           temporibus cumque voluptas ratione a, esse assumenda adipisci et.
           Maiores totam accusantium harum similique!
         </p>
-        <button className="bg-[#e5e5e5] py-2 px-8 mt-5 rounded-full font-semibold text-xl border border-black hover:bg-black hover:text-white transition-all duration-300">learn more</button>
+        {/* <button className="bg-[#e5e5e5] py-2 px-8 mt-5 rounded-full font-semibold text-xl border border-black hover:bg-black hover:text-white transition-all duration-300">learn more</button> */}
+        <Button variant = "large">learn more</Button>
       </div>
     </div>
   );

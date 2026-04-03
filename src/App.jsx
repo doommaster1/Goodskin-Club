@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Services from './components/Services';
-import Gallery from './components/Gallery';
-import About from './components/About';
-import Products from './components/Products';
-import Footer from './components/Footer';
+import Header from './sections/Header';
+import Navbar from './sections/Navbar';
+import Services from './sections/Services';
+import Gallery from './sections/Gallery';
+import About from './sections/About';
+import Products from './sections/Products';
+import Footer from './sections/Footer';
 
 function App() {
   return (

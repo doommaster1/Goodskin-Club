@@ -9,7 +9,7 @@ export default function Gallery() {
       </div>
 
       {/* Gallery */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
         
         {/* Image Besar */}
         <img
@@ -21,12 +21,12 @@ export default function Gallery() {
         <img
           className="w-full h-full object-cover rounded-xl"
           src="img/p/Davidson-TulsiGabbard.png"
-          alt="black_man"
+          alt="tulsi"
         />
 
         <img
           className="w-full h-full object-cover rounded-xl"
-          src="img/p/white.jpg"
+          src="img/p/male.jpg"
           alt="person4"
         />
 
